@@ -1,0 +1,41 @@
+{
+    "Productos": [
+      {
+        "id": 1,
+        "img": "https://images.samsung.com/is/image/samsung/p6pim/ar/2302/gallery/ar-galaxy-s23-s918-446703-sm-s918bzgvaro-thumb-535074933?$172_172_PNG$",
+        "stock": 10,
+        "title": "Samsung Galaxy S23 Ultra",
+        "description": "Smartphone Samsung",
+        "price": "529.999",
+        "categoryId": "smartphone"
+      },
+      {
+        "id": 2,
+        "img": "https://images.samsung.com/is/image/samsung/p6pim/ar/sm-x900nzadaro/gallery/ar-galaxy-tab-s8-ultra-wifi-x900-sm-x900nzadaro-thumb-532190726?$172_172_PNG$",
+        "stock": 10,
+        "title": "Galaxy Tab S8 Keyboard",
+        "description": "Tablet Samsung",
+        "price": "599.999",
+        "categoryId": "tablet"
+      },
+      {
+        "id": 3,
+        "img": "https://images.samsung.com/is/image/samsung/assets/ar/2208/pcd/watches/Galaxy_Watch5Pro_PC.png?$376_376_PNG$",
+        "stock": 9,
+        "title": "Galaxy Watch 5 Pro PC",
+        "description": "SmartWatch Samsung",
+        "price": "171.999",
+        "categoryId": "smartwatch"
+      },
+      {
+        "id": 4,
+        "img": "https://images.samsung.com/is/image/samsung/assets/ar/2208/pcd/watches/PCD_showcase_3_card_watch4_PC.png?$376_376_PNG$",
+        "stock": 10,
+        "title": "Galaxy Watch 5 Pro BT",
+        "description": "SmartWatch Samsung",
+        "price": "171.999",
+        "categoryId": "smartwatch"
+      }
+    ]
+  }
+  

@@ -1,0 +1,17 @@
+.item {
+  margin: 16px;
+
+}
+
+.item__img {
+  width: 300px;
+  height: 300px;
+}
+
+.link2 {
+  text-decoration: none;
+  font-weight: bolder;
+  padding-left: 90px;
+  font-size: 24px;
+}
+

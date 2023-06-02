@@ -1,0 +1,28 @@
+
+nav {
+  font-size: 24px;  
+  width: 100%;
+  height: 200px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+button {
+    margin: 20px;
+    background-color:antiquewhite ;
+    font-size: 24px;
+    
+ 
+}
+
+h3 {
+    font-size: 42px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}

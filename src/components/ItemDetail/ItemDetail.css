@@ -1,0 +1,22 @@
+.item-det {
+    
+        display: flex;
+        justify-content: space-around;
+      }
+.item2 {
+    margin: 30px;
+    padding: 20px;
+    background-color: antiquewhite ;
+  
+  }
+  
+.item__img {
+    width: 300px;
+    height: 300px;
+  }
+
+.b {
+  text-decoration: none;
+  color: black;
+}
+
