@@ -26,11 +26,11 @@ const ItemDetail = ({ id, img, title, description, stock, price }) => {
           <Card.Body>
             <Card.Title>{title}</Card.Title>
             <Card.Text>{description}</Card.Text>
-            <Card.Text>{price}</Card.Text>
-            <Card.Text>Stock {stock}</Card.Text>
+            <Card.Text>$ {price}</Card.Text>
+            <Card.Text>Stock: {stock}</Card.Text>
             { 
               quantityAdded > 0 ? (
-                <button><Link to="/cart" className="b">Terminar compra</Link></button>
+                <button className="rounded-button m-6 c"><Link to="/cart" className="b">Terminar compra</Link></button>
               ) : (
                 <ItemCount className="cont" stock={stock} initial={1} onAdd={handleOnAdd} />
               )

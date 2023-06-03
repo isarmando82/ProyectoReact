@@ -11,9 +11,11 @@ const Cart = () => {
   if (totalQuantity === 0) {
     return (
       <div>
-        <h1>No hay items en el carrito</h1>
-        <button><Link to="http://localhost:3000/" className="nn">Hacer compras</Link></button>
-        <button><Link to="/" className="nn">Limpiar Carrito</Link></button>
+        <h1 className="cent">No hay items en el carrito</h1>
+        <div className="b">
+        <button className="rounded-button"><Link to="http://localhost:3000/" className="nn">Hacer compras</Link></button>
+        <button className="rounded-button"><Link to="/" className="nn">Limpiar Carrito</Link></button>
+        </div>
       </div>
     );
   }
@@ -24,14 +26,15 @@ const Cart = () => {
         <CartItem key={p.id} {...p} /> 
        
       ))} 
-      <h3>Total: ${total}</h3>
-      <button className="nn" onClick={() => clearCart()} >
+      <h3 className="m">Total: ${total}</h3>
+      <div className="b">
+      <button className="nn rounded-button" onClick={() => clearCart()} >
         Limpiar Carrito
       </button>
-      <button type="button">
-  <Link to="/checkOut" className="">CheckOut</Link>
+      <button type="button" className="rounded-button">
+  <Link to="/checkOut" className="nn">CheckOut</Link>
       </button>
-      
+      </div>
     </div>
   );
 };

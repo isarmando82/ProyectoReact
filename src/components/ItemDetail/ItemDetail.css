@@ -18,5 +18,11 @@
 .b {
   text-decoration: none;
   color: black;
+  padding: 10px;
+}
+
+.c { 
+ margin-left: 50px;
+
 }
 

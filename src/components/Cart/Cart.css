@@ -2,3 +2,28 @@
     text-decoration: none;
     color: black;
 }
+
+.cent {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    color: brown;
+    }
+
+.b {
+    display: flex;
+    justify-content: space-around;    
+}
+
+.rounded-button {
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    
+  }
+
+.m {
+    margin: 100px;
+    margin-left: 1000px;
+    
+}
